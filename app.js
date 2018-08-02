@@ -9,7 +9,7 @@ app.get("/", (req, res) => {
 });
 
 app.post("/", (req, res) => {
-
+  res.send("<h1>Hola</h1>");
 });
 
 app.listen(3000, () => console.log("Listening on port 3000!"));
